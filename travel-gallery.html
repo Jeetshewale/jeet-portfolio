@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Gallery | Vishwajeet Shewale</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #0f172a;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+    }
+    a.back {
+      display: block;
+      margin: 2rem auto;
+      width: max-content;
+      text-align: center;
+      padding: 0.75rem 1.5rem;
+      background-color: #0f172a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    a.back:hover {
+      background-color: #1e3a8a;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Travel Photography</h1>
+  <div class="gallery">
+    <img src="images/1000162290.jpg" alt="Heritage site">
+    <img src="images/IMG_5987.jpg" alt="Sunset by the sea">
+    <img src="images/IMG-20241231-WA0068.jpg" alt="Friends by the beach">
+    <img src="images/IMG20230115090646.jpg" alt="Wall mural art">
+    <img src="images/IMG20231205153416.jpg" alt="Biker on hills">
+    <img src="images/IMG20231205164100.jpg" alt="Tea garden trail">
+    <img src="images/IMG20231206063318.jpg" alt="Mountain sunset">
+    <img src="images/Snapchat-779439526.jpg" alt="Palm road trip">
+  </div>
+  <a class="back" href="index.html">← Back to Portfolio</a>
+</body>
+</html>
